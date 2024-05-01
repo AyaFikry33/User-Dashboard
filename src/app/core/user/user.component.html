@@ -1,0 +1,11 @@
+<div class="user-card">
+  <a href="user-details/{{user.id}}" class="card-link">
+    <div class="card">
+      <img class="card-img-top" [src]="user.avatar" alt="User Avatar">
+      <div class="card-body">
+        <h5 class="card-title">{{ user.first_name }} {{ user.last_name }}</h5>
+        <p class="card-text">ID: {{ user.id }}</p>
+      </div>
+    </div>
+  </a>
+</div>

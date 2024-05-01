@@ -1,0 +1,142 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+.user-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;;
+}
+
+.user-card {
+  margin: 10px;
+  .card-link {
+    text-decoration: none;
+    .card {
+      width: 18rem;
+      text-align: center;
+      // margin: 10px;
+      .card-img-top{
+        height: 270px;
+      }
+    }
+  }
+}
+
+.card-title {
+  margin-bottom: 0.5rem;
+}
+.user-details {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.user-info img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.user-text {
+  color: #333;
+}
+
+.user-text h2 {
+  margin-bottom: 5px;
+}
+
+.user-text p {
+  margin: 5px 0;
+  color: #777;
+}
+.back-btn {
+  margin: auto;
+  display: block;
+  margin-top: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  a{
+    color: white;
+    text-decoration: unset
+  }
+}
+
+.back-btn:hover {
+  background-color: #0056b3;
+}
+
+.navbar {
+  background-color: #007bff;
+  padding: 10px;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-brand:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.form-inline {
+  display: flex;
+  align-items: center;
+}
+
+.form-control {
+  margin-left: 10px;
+  border-radius: 5px;
+  border: none;
+  padding: 8px 12px;
+}
+
+.form-control:focus {
+  outline: none;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #dee2e6;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #dee2e6;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #dee2e6;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #dee2e6;
+}
+.spinner{
+  position: absolute;
+  z-index: 4;
+  background: rgba(237, 231, 231, .5);
+  display: flex;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  .spinner-border{
+    margin: auto;
+    display: block;
+    font-size: 20px;
+  }
+}

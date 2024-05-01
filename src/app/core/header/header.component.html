@@ -1,0 +1,10 @@
+<nav class="navbar">
+  <div class="container">
+    <a class="navbar-brand" href="#">User Dashboard</a>
+    <div>
+      <form class="form-inline">
+        <input #searchInput class="form-control" type="search" placeholder="Search" aria-label="Search" (keyup)="getPerson(searchInput.value)">
+      </form>
+    </div>
+  </div>
+</nav>
